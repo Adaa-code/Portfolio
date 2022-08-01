@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> RUTH ADA PORTFOLIO </title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+        <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+
+        <!--Font Icon-->
+        <script src="https://kit.fontawesome.com/0f0e2debe4.js" crossorigin="anonymous"></script>
+
+        <!--Animation-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <style>
+            body{
+                background-color:  #474646;
+                font-family: 'Barlow', sans-serif;
+                font-weight: 400;
+                line-height: 1.7;
+                
+            }
+            #photo{
+                border: 5px solid;
+                border-color: chocolate;
+                border-radius: 10px;
+            }
+            .social-media{
+                padding: 20px;
+                font-size: 15px;
+                font-family: 'Barlow', sans-serif;
+                color: chocolate;
+                border-color: chocolate;
+                border-radius: 50px;
+                text-decoration: none;
+            }
+            .fa:hover {
+                color: chocolate;
+                opacity: 0.7;
+            }
+            .epundu-ruth {
+                color: chocolate;
+            }
+            .btn {
+                border: 2px solid;
+                border-radius: 10px;
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 4px;
+                padding: .75rem 1.5rem;
+                text-transform: uppercase;
+                border-color: chocolate;
+                background-color: white;
+            }
+            .btn:hover {
+                background-color: chocolate;
+            }
+            a {
+                color: chocolate;
+                
+            }
+            /* Navbar */
+            .sidenav {
+              height: 100%;
+              width: 300px;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color: #192227;
+              overflow-y: auto;
+              padding-top: 20px;
+              display: block;
+            }
+            
+            .sidenav a {
+              padding: 6px 8px 6px 16px;
+              text-decoration: none;
+              font-size: 25px;
+              color: white;
+              display: block;
+              text-align: center;
+            }
+            
+            .sidenav a:hover {
+              color: chocolate;
+            }
+            
+            .main {
+              margin-left: 270px; /* Same as the width of the sidenav */
+              font-size: 28px; /* Increased text to enable scrolling */
+              padding: 0px 10px;
+            }
+            
+            @media screen and (max-height: 450px) {
+              .sidenav {padding-top: 15px;}
+              .sidenav a {font-size: 18px;}
+            }
+            #adaobi span{
+                color: chocolate;
+                font-weight: bold;
+                
+            }
+            #sss span {
+                color: chocolate;
+                font-weight: bold;
+                
+            }
+            /* Progress Bar */  
+            #pb {
+                background-color: chocolate;
+            } 
+            #line span{
+                color: chocolate;
+            }
+            /* Line */
+            hr {
+                border: none;
+                border-top: 5px double #333;
+                color: #333;
+                overflow: visible;
+                text-align: center;
+                height: 10px;
+            }
+            /* Footer */
+            footer {
+                color: #fff;
+                font-size: 1.5rem;
+                text-align: right;
+            }
+
+            footer .inner {
+                padding: 3rem 0;
+            }
+
+            footer .copyright {
+                border-top: 1px solid rgba(255, 255, 255, 0.25);
+                font-size: 13px;
+                letter-spacing: 2px;
+                padding: 2rem 0;
+                text-align: center;
+            }
+
+            footer a {
+                color: #fff;
+            }
+
+            footer a:hover {
+                color: #fff;
+                text-decoration: none;
+            }    
+        </style>
+    </head>
+    <body>
+        <!--NavBar Starts-->
+            <div class="sidenav">
+                <div class="container p-5">
+                    <h4 class="display-6 fs-3 fw-bold text-center"><span style="color:orange;">EPUNDU RUTH</h4>
+                        <hr><br><br>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        <!--NavBar Ends--> 
+            
+            <div class="main">
+          <!-- Start Home -->
+          <section id="home">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row min-vh-100">
+                        <div class="col-md-12 text-center my-auto text-white">
+                            <div class="intro">
+                                <img src="images/ada-removebg.png" alt="epundu-ruth" class="rounded-circle" width="200" height="200" id="photo">
+                                <div class="portrait-small animate__animated animate__fadeInDown"></div>
+                                <div class="typewriter mb-5 animate__animated animate__fadeInUp ">
+                                    I'm a
+                                    <div class="typed-strings" id="line">
+                                        Web Designer <span> | </span> Marketer <span> | </span> Secretary 
+                                    </div>
+                                    <span class="typed"></span>
+                                </div>
+                                <div class="social-media" id="social-icons">
+                                    <a href="https://web.facebook.com/ruth.adaobi.9"><i class="border border-warning rounded-circle p-2 fs-5 fa-brands fa-facebook fa-2x me-2"></i></a>
+                                    <a href="#"><i class="border border-warning rounded-circle p-2 fs-5  fa-brands fa-twitter fa-2x me-2"></i></a>
+                                    <a href="https://www.linkedin.com/in/ruth-ada-5292aa92/"><i class="border border-warning rounded-circle p-2 fs-5 fa-brands fa-linkedin-in fa-2x me-2"></i></a>
+                                    <a href="https://github.com/Adaa-code"><i class="border border-warning rounded-circle p-2 fs-5 fa-brands fa-github fa-2x me-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- End Home -->
+
+         <!-- Start About -->
+         <section id="about">
+            <div class="container-fluid bg-light">
+                <div class="container p-5">
+                <div class="row">
+                    <div class="col-md-12 text-center p-5">
+                        <h1><span style="color:chocolate;font-weight:bold">ABOUT </span><span style="font-weight: bold;">ME</span><hr></h1>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/ada-removebg.png" class="" alt="portrait" height="70%" width="270">
+                    </div>
+                    <div class="col-md-8 " style="text-align: justify;">
+                        <h1>Hello, I'm Ruth</h1>
+                        <p class="fs-5"> I am always energetic and eager to learn new skills and very resourceful and ambitious at the same time. I find solutions, get creative, and solve problems without needing the help of coworkers or managers. I know when to ask for help and I don’t stay quiet if I do need assistance. But when it is possible to handle something without occupying the time of others, I do it and I consider myself very good at it. 
+                        </p>
+                        <div class="fs-5 about-contact-wrap" id="adaobi">
+                            <ul style="list-style-type:none;">
+                                <li>
+                                    <span id="sss">Name:</span>&emsp;&emsp;&emsp;&ensp;&ensp; Epundu Ruth
+                                </li>
+                                <li>
+                                    <span>Address:</span>&emsp;&emsp;&emsp; Port Harcourt, Rivers State
+                                </li>
+                                <li>
+                                    <span>Age:</span>&emsp;&emsp;&emsp;&emsp;&emsp; 27
+                                </li>
+                                <li>
+                                    <span>Phone:</span>&emsp;&emsp;&emsp;&emsp; 08141891771
+                                </li>
+                                <li>
+                                    <span>Email:</span>&emsp;&emsp;&emsp;&emsp;&ensp; ruthada2@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                        <br>
+                        <a href="#" class="btn btn-default btn-lg p-3">DOWNLOAD CV</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+         </section>
+            <div class="container-fluid p-5 text-center"> 
+                <h1><span style="color:chocolate;font-weight:bold">My </span><span style="font-weight: bold;">Skill</span><hr></h1>
+                <div class="container mt-3 p-5">
+                    <div class="row">             
+                            <div class="progress-bar fw-bold">
+                                <div class="progress" style="height:30px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated text-center" role="progressbar" aria-label="Info striped example" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" id="pb">HTML 85% </div>
+                                </div><br>
+
+                                <div class="progress text-center" style="height:30px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Info striped example" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" id="pb">CSS 80% </div>
+                                </div><br>
+
+                               <div class="progress" style="height:30px ;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Info striped example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" id="pb">BOOTSTRAP 75% </div>
+                                </div><br>
+
+                                <div class="progress" style="height:30px ;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Info striped example" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" id="pb">EXCEL 70% </div>
+                                </div>
+                            </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+        <!-- End About -->
+
+        <!-- Start Experience-->
+        <section id="experience">
+            <div class="inner lighten">
+                <div class="container p-5 bg-light">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 style="color: chocolate; font-weight: bold; text-align: center;"> EXPERIENCE</h1>
+                            <hr>
+                        </div><br>
+                    
+                        <div class="col-md-4 blog mb-5 mb-md-0">
+                            <div class="card">
+                                <div class="card-body fs-5">
+                                    <div class="meta">
+                                        <div class="date text-center">
+                                            January, 2012
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-center">Secretary</h5>
+                                    <p class="card-text">
+                                        ●  Efficient in typing, and also improved knowledge in Microsoft Word, Corel draw, Microsoft PowerPoint.<br><br>
+                                        ● Maintained excellent attendance record, consistently arriving to work on time.<br><br>
+                                        ● Supervise customers activities and making sure they are satisfied with the service we provide<br><br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 blog mb-5 mb-md-0">
+                            <div class="card">
+                                <div class="card-body fs-5">
+                                    <div class="meta">
+                                        <div class="date text-center">
+                                            November, 2021
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-center">Insurance Advisor and Marketer </h5>
+                                    <p class="card-text">
+                                        ●	Meeting new prospects, introducing products and implementing strategies to sell plans.<br><br>
+                                        ●	Clarifying any misunderstanding they might have had before now about products or company.<br><br>
+                                        ●	Listening to customers complaints and resolving such issues.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 blog mb-5 mb-md-0">
+                            <div class="card">
+                                <div class="card-body fs-5">
+                                    <div class="meta">
+                                        <div class="date text-center">
+                                           October, 2019
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-center">Teacher</h5>
+                                    <p class="card-text">
+                                        ●	Always punctual to class<br>
+                                        ●	Inspecting the students note book and homework to make sure they are all up to date.<br><br>
+                                        ●	Construct and create teacher note to be easier to teach the students level.<br><br>
+                                        ●	Mark attendance and reward best performing students as an encouragement.<br><br><br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Experience -->
+
+        <!-- Start Portfolio -->
+        <section id="portfolio">
+            <div class="inner lighten">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center p-5">
+                            <h1 style=" font-weight: bold; color: chocolate;">PORTFOLIO</h1>
+                        </div>
+                    </div>
+                    <!-- Projects -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/Screenshot 2022-07-26 232813.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/Screenshot 2022-07-26 232917.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/Screenshot 2022-07-26 234416.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/next.PNG" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/new.PNG" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <!-- End Portfolio -->
+
+        <!--Start Contact-->
+        <section id="contact">
+            <div class="inner">
+                <div class="container m-1 text-center p-5 bg-light">
+                    <h1><span style="color:chocolate;font-weight:bold">CONTACT </span><span style="font-weight: bold; ">ME</span><hr></h1>
+                    <div class="row">
+                        <div class="col-sm-3 text-center bg-secondary me-3 fs-5 m-2 p-5">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-envelope fa-2x me-2"></i>
+                                    </div>
+                                    <strong>Email:</strong>
+                                    <p>
+                                        <a href="mailto:ruthada2@gmail.com">ruthada2@gmail.com</a>
+                                    </p>
+                                </div>
+                                <div class="col-sm-3 text-center bg-secondary me-3 m-2 fs-5 p-5">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-mobile-screen fa-2x me-2"></i>
+                                    </div>
+                                    <strong>Phone:</strong>
+                                    <p>
+                                       <a href="tel:+234-08141891771">08141891771</a>
+                                    </p>
+                                </div>
+                                <div class="col-sm-3 text-center bg-secondary me-3 m-2 fs-5 p-5">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-location-dot fa-2x me-2"></i>
+                                    </div>
+                                    <strong>Address:</strong>
+                                    <p style="color: chocolate;"> Port Harcourt, Rivers State
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br> 
+                        <!--Forms-->
+                        <div class="container bg-light fs-5">
+                        <div class="container mt-3 bg-white p-3">
+                            <form action="/action_page.php">
+                                <div class="mb-3 mt-3">
+                                    <label for="name" class="form-label">Name:</label>
+                                    <input type="name" class="form-control" id="name" placeholder="Enter name" name="name" required>
+                                </div> 
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="remember">Remember Me
+                                    </label>
+                                </div>
+                                <label for="message">Message</label>
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Type message" name="text"></textarea>
+                                <br>
+                                <button type="submit" class="btn "><i class="fa fa-paper-plane m-2"></i>Send Message</button>
+                                <br><br>
+                            </form>
+                        </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact -->
+
+        <!-- Start Footer -->
+        <footer>
+            <div class="social-media inner m-2 me-3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-2">
+                            <a href="https://web.facebook.com/ruth.adaobi.9">
+                                <i class=" p-2 fs-5 fa-brands fa-facebook fa-2x"></i></a>
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#">
+                                <i class="p-2 fs-5 fa-brands fa-twitter fa-2x "></i>
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://www.linkedin.com/in/ruth-ada-5292aa92/">
+                                <i class="p-2 fs-5 fa-brands fa-linkedin-in fa-2x "></i>
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://github.com/Adaa-code">
+                                <i class="p-2 fs-5 fa-brands fa-github fa-2x "></i>
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#">
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <h6> &copy;2022 Ada Portfolio. All Right Reserved | Designed by <span style="color: chocolate;" >24th July </span> </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+          <!-- Javascript Bundle with Popper -->
+      <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
